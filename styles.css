@@ -79,6 +79,14 @@ header {
     min-height: 60px;
 }
 
+.discord{
+  display:inline-grid;place-items:center;width:28px;height:28px;border-radius:8px;
+  background:linear-gradient(135deg,#5865F2,#7c5cff);color:#fff;
+  transition:transform .3s var(--ease);
+}
+.discord svg{width:16px;height:16px}
+.discord:hover{transform:translateY(-3px) rotate(-6deg)}
+
 .logo-section {
     display: flex;
     align-items: center;
